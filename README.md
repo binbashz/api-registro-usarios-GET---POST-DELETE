@@ -21,4 +21,4 @@ La aplicación define varias rutas:
 
 ## Configuración del puerto
 
-Por último, se especifica en qué puerto se ejecutará el servidor web. Por defecto, utiliza el puerto 80. Cuando inicias el servidor, se muestra un mensaje en la consola indicando en qué puerto está escuchando.
+Por último, se especifica en qué puerto se ejecutará el servidor web. Por defecto, utiliza el puerto 80. Cuando inicias el servidor, se muestra un mensaje en la consola indicando en qué puerto está escuchando
