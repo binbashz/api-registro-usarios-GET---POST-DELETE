@@ -48,7 +48,7 @@ app.post('/api/usuario/', (request, response) => {
         enroll: (request.body.enroll === 'true')
     };
 
-    // Agregar el nuevo usuario al arreglo de usuarios
+    // Agregar el nuevo usuario al arreglo de usuarios.
     usuarios.push(newUser);
 
     // -- Mostrar los datos recibidos y el nuevo usuario creado en la consola
@@ -58,7 +58,7 @@ app.post('/api/usuario/', (request, response) => {
     console.log('Nuevo usuario creado:');
     console.log(newUser);
 
-    // Enviar el nuevo usuario como respuesta
+    // Enviar el nuevo usuario como respuesta.
     response.send(newUser);
 });
 
