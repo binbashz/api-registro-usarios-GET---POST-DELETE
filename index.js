@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/templates'));
 // Middleware para analizar solicitudes en formato JSON
 app.use(express.json());
 
-// Arreglo de usuarios (datos de muestra)
+// Arreglo de usuarios (datos de muestra).
 const usuarios = [
     { id: 1, nombre: 'Mauricio', telefono: 224455, enroll: true },
     { id: 2, nombre: 'Nicolas', telefono: 236677, enroll: true },
